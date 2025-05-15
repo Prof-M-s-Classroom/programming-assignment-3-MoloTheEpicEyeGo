@@ -3,9 +3,9 @@
 
 class Graph {
 public:
-    Graph(int vertices);
-    ~Graph();
-    void addEdge(int u, int v, int weight);
+    Graph(int vertices); //x
+    ~Graph();//x
+    void addEdge(int u, int v, int weight);//x
     void primMST();  // Must print MST edges and total weight
 
 private:
